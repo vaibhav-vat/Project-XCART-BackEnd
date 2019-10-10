@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XCartBackEnd", "XCartBackEnd\XCartBackEnd.csproj", "{5175077F-A5AB-454B-B8E7-8F4A65522B18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XCart.DAL", "XCart.DAL\XCart.DAL.csproj", "{B827A91F-B5C2-42E0-8F76-576E83BE1885}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XCart.DBEntities", "XCart.DBEntities\XCart.DBEntities.csproj", "{3CF3FA0F-AABE-4E88-929E-035C1BD9723E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XCart.BL", "XCart.BL\XCart.BL.csproj", "{D5F0FF6B-7051-42DB-BD90-630C01666CC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XCart.ViewModel", "XCart.ViewModel\XCart.ViewModel.csproj", "{78104EED-EB37-447B-A4B8-F639524AB025}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XCart.Common", "XCart.Common\XCart.Common.csproj", "{AD66CF57-B908-41E1-B60B-F7A394A67FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCart.Service", "XCart.Service\XCart.Service.csproj", "{540CF959-4693-4DD1-BD4E-426D98FFE33B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5175077F-A5AB-454B-B8E7-8F4A65522B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5175077F-A5AB-454B-B8E7-8F4A65522B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5175077F-A5AB-454B-B8E7-8F4A65522B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5175077F-A5AB-454B-B8E7-8F4A65522B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B827A91F-B5C2-42E0-8F76-576E83BE1885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B827A91F-B5C2-42E0-8F76-576E83BE1885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B827A91F-B5C2-42E0-8F76-576E83BE1885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B827A91F-B5C2-42E0-8F76-576E83BE1885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF3FA0F-AABE-4E88-929E-035C1BD9723E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF3FA0F-AABE-4E88-929E-035C1BD9723E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF3FA0F-AABE-4E88-929E-035C1BD9723E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF3FA0F-AABE-4E88-929E-035C1BD9723E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F0FF6B-7051-42DB-BD90-630C01666CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F0FF6B-7051-42DB-BD90-630C01666CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F0FF6B-7051-42DB-BD90-630C01666CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F0FF6B-7051-42DB-BD90-630C01666CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78104EED-EB37-447B-A4B8-F639524AB025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78104EED-EB37-447B-A4B8-F639524AB025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78104EED-EB37-447B-A4B8-F639524AB025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78104EED-EB37-447B-A4B8-F639524AB025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD66CF57-B908-41E1-B60B-F7A394A67FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD66CF57-B908-41E1-B60B-F7A394A67FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD66CF57-B908-41E1-B60B-F7A394A67FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD66CF57-B908-41E1-B60B-F7A394A67FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540CF959-4693-4DD1-BD4E-426D98FFE33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540CF959-4693-4DD1-BD4E-426D98FFE33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540CF959-4693-4DD1-BD4E-426D98FFE33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540CF959-4693-4DD1-BD4E-426D98FFE33B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8411B6B-3263-4F15-B45D-35E9AD4B2048}
+	EndGlobalSection
+EndGlobal
